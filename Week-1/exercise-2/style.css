@@ -33,9 +33,20 @@ body {
 
 .main_header {
   display: grid;
-  grid-template-areas: "img"
-    "dtls";
+  grid-template-areas: "img" "dtls";
   color: #fff;
+}
+
+.img {
+  padding: 20px;
+}
+
+.details {
+  padding: 10px 30px 30px 80px;
+}
+
+.playlist-control {
+  padding-top: 100px;
 }
 
 .footer {
